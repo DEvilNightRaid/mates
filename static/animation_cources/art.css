@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+#container1 {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0px;
+}
+/* #c1-part1{
+    border: 2px solid red;
+} */
+#c1-part1 h1{
+    font-family: 'Alegreya Sans SC', sans-serif;
+	color:#404258;
+    font-size: 2.12rem;
+    margin: 20px 0;
+}
+#c1-part1 p{
+    font-size: 1.12rem;
+    margin: 10px 0;
+    font-family: 'poppins', sans-serif;
+	color:#472D2D;
+}
+#c1-part1 ul{
+    margin: 10px 12px;
+    font-size: 1.12rem;
+    font-family: 'poppins', sans-serif;
+    color:#472D2D;
+}
+#c1-part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#c1-part2 img{
+    padding: 20px 0;
+    max-width: calc(20rem - 20px);
+    border-bottom: 3px solid black;
+}
+#container2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+#container2 ul{
+    margin: 10px 12px;
+    font-size: 1.12rem;
+    font-family: 'poppins', sans-serif;
+    color:#472D2D;
+}
+#container3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+#container3 ul{
+    margin: 10px 12px;
+    font-size: 1.12rem;
+    font-family: 'poppins', sans-serif;
+    color:#472D2D;
+}
+@media only screen and (min-width: 1023px){
+    #mainContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        gap: 1rem;
+        padding: 10px 200px;
+    }
+    #container1 {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        gap: 7rem;
+    }
+    #c1-part1 h1{
+        font-size: 3rem;
+        letter-spacing: 0.3rem;
+        margin: 10px 0;
+    }
+    #c1-part1 p{
+        font-size: 1.30rem;
+        margin: 10px 0;
+    }
+    #c1-part1 ul{
+        margin: 10px 12px;
+        font-size: 20px;
+    }
+    #c1-part1 ul li{
+        margin: 10px 12px;
+    }
+    #c1-part2{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 0;
+    }
+    #c1-part2 img{
+        max-width: calc(20rem - 20px);
+    }
+    #container2{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    #container3{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+}
