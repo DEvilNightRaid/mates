@@ -823,3 +823,50 @@ section .text-container .text-box p {
   }
   /* EO. Container5 */
 }
+@media   (min-width: 767px) and (max-width:1000px) {
+#container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 100px;
+}
+#container2 #c2-field2 p {
+  font-size: 20px;
+}
+}
+#container4 #c4-field2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+#container4 #c4-field2 #c4-f2-l1 img {
+  height: calc(40rem - 20px);
+  width: calc(40rem - 20px);
+
+}
+
+section .container {
+  margin: 1px;
+}
+section .text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+section .text-container .text-box {
+  padding: 20px;
+  background: #f7f7f2;
+  text-align: left;
+  width: calc(20rem - 20px);
+  border-radius: 4px;
+}
+section .text-container .text-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #95c623;
+}
+section .text-container .text-box p {
+  font-size: 15px;
+  color: #1c1c21;
+}
+
+
